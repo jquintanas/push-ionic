@@ -139,4 +139,12 @@ export class HomePage implements OnInit {
       this.flagGorras = false;
     }
   }
+
+  onSwipeLeft() {
+    this.segment ="C";
+  }
+
+  onSwipeRight() {
+    this.segment = "G";
+  }
 }

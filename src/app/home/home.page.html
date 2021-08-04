@@ -6,8 +6,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-segment [(ngModel)]="segment" (ionChange)="segmentChanged()">
+<ion-content [fullscreen]="true" (swipeleft)="onSwipeLeft()" (swiperight)="onSwipeRight()">
+  <ion-segment [(ngModel)]="segment" (ionChange)="segmentChanged()" scrollable="false">
     <ion-segment-button value="G">
       <ion-icon name="person-outline"></ion-icon>
       <ion-icon name="notifications-outline" class="icono-notificacion" *ngIf="flagGorras"></ion-icon>
