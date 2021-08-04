@@ -1,20 +1,20 @@
 #container {
   text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
+  position : absolute;
+  left     : 0;
+  right    : 0;
+  top      : 50%;
   transform: translateY(-50%);
 }
 
 #container strong {
-  font-size: 20px;
+  font-size  : 20px;
   line-height: 26px;
 }
 
 #container p {
-  font-size: 16px;
+  font-size  : 16px;
   line-height: 22px;
 
   color: #8c8c8c;
@@ -24,4 +24,16 @@
 
 #container a {
   text-decoration: none;
+}
+
+.ocultar-col {
+  display: none !important;
+}
+
+.icono-notificacion {
+  position : absolute !important;
+  top      : 0 !important;
+  right    : 0 !important;
+  font-size: 0.8rem !important;
+  color    : var(--ion-color-primary) !important;
 }

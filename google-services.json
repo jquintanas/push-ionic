@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "328451296834",
+    "project_id": "push-a82fc",
+    "storage_bucket": "push-a82fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328451296834:android:b681c9d31e4a18d6ace7db",
+        "android_client_info": {
+          "package_name": "com.jonathan.quintana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328451296834-t7ei6a3hr62khd9ea8veal6bjdj25ggc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPoIs0WM6H-pEtiXCtwN8ERZZQZQy7lNM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328451296834-t7ei6a3hr62khd9ea8veal6bjdj25ggc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
