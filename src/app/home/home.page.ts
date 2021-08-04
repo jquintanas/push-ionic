@@ -86,7 +86,8 @@ export class HomePage implements OnInit {
             img: image,
             title,
             url,
-            type: data.segment
+            type: data.segment,
+            read: false
           }
         );
         this.orderArrayById();
@@ -122,6 +123,13 @@ export class HomePage implements OnInit {
 
   public openNotification(push: IPush) {
     this.themeableBrowser.create(push.url, '_blank', this.options);
+    this.listaNotificaciones = this.listaNotificaciones.map(ntf => {
+      if (ntf.id == push.id) {
+        ntf.read = true;
+      }
+      return ntf;
+    });
+    this.core.setPushInStorage(this.listaNotificaciones);
   }
 
   segmentChanged() {

@@ -37,3 +37,12 @@
   font-size: 0.8rem !important;
   color    : var(--ion-color-primary) !important;
 }
+
+.icon-ntf {
+  position : absolute;
+  z-index  : 10;
+  right    : 0;
+  top      : 0;
+  color    : var(--ion-color-primary);
+  font-size: 0.7rem;
+}

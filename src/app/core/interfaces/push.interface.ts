@@ -4,5 +4,6 @@ export interface IPush {
     descripcion: string;
     img: string;
     url: string;
-    type: "C" | "G"
+    type: "C" | "G",
+    read: boolean;
 }

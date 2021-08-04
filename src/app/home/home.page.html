@@ -23,6 +23,7 @@
     <ion-row>
       <ion-col size="12" *ngFor="let push of listaNotificaciones" [ngClass]="{'ocultar-col': push.type != segment}">
         <ion-item *ngIf="push.type == segment" (click)="openNotification(push)">
+          <ion-icon name="radio-button-on-outline" class="icon-ntf" *ngIf="!push.read"></ion-icon>
           <ion-avatar slot="start">
             <img src="{{push.img}}">
           </ion-avatar>
